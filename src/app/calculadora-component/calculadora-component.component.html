@@ -1,0 +1,41 @@
+<h1>CALCULADORA PABLO REBOLLO</h1>
+<div class="container">
+  <div class="cont-result">
+  <div class="result">{{operation}}</div>
+
+
+
+  </div>
+  <div class="container-table">
+  <table>
+    <tr>
+      <td><button class="number btn-calc" (click)="addNumber('7')">7</button></td>
+      <td><button class="number btn-calc" (click)="addNumber('8')">8</button></td>
+      <td><button class="number btn-calc" (click)="addNumber('9')">9</button></td>
+      <td><button class="operator btn-calc" (click)="selectOperator('/')">/</button></td>
+    </tr>
+    <tr>
+      <td><button class="number btn-calc" (click)="addNumber('4')">4</button></td>
+      <td><button class="number btn-calc" (click)="addNumber('5')">5</button></td>
+      <td><button class="number btn-calc" (click)="addNumber('6')">6</button></td>
+      <td><button class="operator btn-calc" (click)="selectOperator('x')">X</button></td>
+    </tr>
+    <tr>
+      <td><button class="number btn-calc" (click)="addNumber('1')">1</button></td>
+      <td><button class="number btn-calc" (click)="addNumber('2')">2</button></td>
+      <td><button class="number btn-calc" (click)="addNumber('3')">3</button></td>
+      <td><button class="operator btn-calc" (click)="selectOperator('-')">-</button></td>
+    </tr>
+    <tr>
+      <td><button class="clear btn-calc" (click)="clear()">C</button></td>
+      <td><button class="number btn-calc" (click)="addNumber('0')">0</button></td>
+      <td><button class="operator btn-calc" (click)="addNumber('.')">.</button></td>
+      <td><button class="operator btn-calc" (click)="selectOperator('+')">+</button></td>
+    </tr>
+    <tr>
+      <td colspan="4"><button class="equal btn-calc" (click)="getResult()">=</button></td>
+    </tr>
+  </table>
+</div>
+</div>
+

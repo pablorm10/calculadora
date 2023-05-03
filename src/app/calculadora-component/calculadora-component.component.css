@@ -1,0 +1,34 @@
+.container-table{
+  display: flex;
+  justify-content: center;
+}
+.cont-result{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.result{
+  width: 310px;
+  height: 30px;
+  background-color: rgb(237, 237, 159);
+  border: 3px solid rgb(0, 89, 255) ;
+  padding-left: 20px;
+  font-size: 28px;
+  font-weight: bold;
+}
+.btn-calc{
+  width: 70px;
+  font-weight: bold;
+  background-color: rgb(231, 231, 35);
+  border: 3px solid rgb(0, 89, 255) ;
+  border-radius:9px;
+  font-size: 20px;
+  margin-bottom: 2px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.equal{
+  width: 220px;
+  margin-top: 11px;
+}
